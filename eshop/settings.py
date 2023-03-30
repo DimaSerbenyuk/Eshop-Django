@@ -33,6 +33,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ '64.226.76.25', '*', 'localhost:8000'] # '64.226.87.90',
 
+CSRF_TRUSTED_ORIGINS = ['https://*.projectsite.uk','https://*.127.0.0.1']
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
